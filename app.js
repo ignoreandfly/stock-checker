@@ -22,10 +22,10 @@ function calculate(initial,quant,current){
     let percentage = (delta/initial)*100
     let x = 5
     if(initial>current){
-        outputbox.innerText = "You lost some money" + "Money lost: " + money + " In terms of percentage " + percentage
+        outputbox.innerText =  "Money lost: " + money + " loss percentage: " + percentage
     }
     else if(current>initial){
-        outputbox.innerText = "You made some profit "+ "Money gained: "+ money + " In terms of percentage " +  percentage
+        outputbox.innerText =  "Money gained: "+ money + " profit percentage: " +  percentage
     }
     else {
         outputbox.innerText = "No profit no loss"
