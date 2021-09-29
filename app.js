@@ -7,7 +7,7 @@ function clickHandler(){
 var ip = initialprice.value ;
 var quantity = initialquantity.value ;
 var curr = currentprice.value;
-if (ip <0 || quantity<o || curr<0){
+if (ip <0 || quantity<0 || curr<0){
     outputbox.innerText="Please enter valid values"}
     else {
 
