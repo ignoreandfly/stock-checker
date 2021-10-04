@@ -20,6 +20,7 @@ function calculate(initial,quant,current){
     let delta = Math.abs(current-initial)
     let money = delta*quant
     let percentage = (delta/initial)*100
+ 
     let x = 5
     if(initial>current){
         outputbox.innerText =  "Money lost: " + money + "." + " Loss percentage: " + percentage
